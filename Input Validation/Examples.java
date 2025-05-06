@@ -5,39 +5,39 @@ public class Examples{
         Scanner scanner = new Scanner(System.in);
 
         // readByte method example
-        byte byteValue = InputValidation.readByte(scanner, "Enter a byte value: ");
+        byte byteValue = InputValidation.readByte("Enter a byte value: ");
         System.err.println("You entered: " + byteValue);
 
         // readShort method example
-        short shortValue = InputValidation.readShort(scanner, "Enter a short value: ");
+        short shortValue = InputValidation.readShort("Enter a short value: ");
         System.err.println("You entered: " + shortValue);
 
         // readInt method example
-        int number = InputValidation.readInt(scanner, "Enter a number: ");
+        int number = InputValidation.readInt("Enter a number: ");
         System.err.println("You entered: " + number);
 
         // readFloat method example
-        float decimal = InputValidation.readFloat(scanner, "Enter a decimal: ");
+        float decimal = InputValidation.readFloat("Enter a decimal: ");
         System.err.println("You entered: " + decimal);
 
         // readLong method example
-        long longValue = InputValidation.readLong(scanner, "Enter a long value: ");
+        long longValue = InputValidation.readLong("Enter a long value: ");
         System.err.println("You entered: " + longValue);
 
         // readChar method example
-        char character = InputValidation.readChar(scanner, "Enter a character: ");
+        char character = InputValidation.readChar("Enter a character: ");
         System.err.println("You entered: " + character);
 
         // readLetter method example
-        char letter = InputValidation.readLetter(scanner, "Enter a letter: ");
+        char letter = InputValidation.readLetter("Enter a letter: ");
         System.err.println("You entered: " + letter);
 
         // readBoolean method example
-        boolean bool = InputValidation.readBoolean(scanner, "Enter true or false: ");
+        boolean bool = InputValidation.readBoolean("Enter true or false: ");
         System.err.println("You entered: " + bool);
 
         // readString method example
-        String text = InputValidation.readString(scanner, "Type some words: ");
+        String text = InputValidation.readString("Type some words: ");
         System.err.println("You entered: " + text);
     }
 }
